@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_alignParentRight="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center_vertical"
+    android:minHeight="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/exrc_card_sets"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/exrc_card_reps"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/exrc_card_rest"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+<ImageView
+    android:id="@+id/exrc_card_check_btn"
+    android:paddingLeft="10dp"
+    android:layout_width="105px"
+    android:layout_height="105px" />
+</RelativeLayout>
